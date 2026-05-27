@@ -5,7 +5,7 @@ Classe Chess — orchestre la partie d'échecs complète.
 
 import json
 import os
-from board_game import Board
+from board import Board
 from player import Player, AIPlayer
 from position import Position
 from pieces import King, Queen, Bishop, Knight, Rook, Pawn
