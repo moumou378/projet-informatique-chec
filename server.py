@@ -22,7 +22,7 @@ from position import Position
 from board import Board
 from pieces import King, Queen, Bishop, Knight, Rook, Pawn
 from player import Player, AIPlayer
-from chess_game import Chess
+from chess import Chess
 
 app = Flask(__name__)
 app.secret_key = "chess3d_secret_key_2025"
